@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial;
+  background: #0b1120;
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  width: 260px;
+  height: 100vh;
+  background: #0f172a;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #00f5ff;
+  color: black;
+}
+
+/* content */
+.content {
+  margin-left: 280px;
+  padding: 30px;
+}
+
+section {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: center;
+}
+
+/* quiz */
+.quiz-box button {
+  margin: 6px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #00f5ff;
+  cursor: pointer;
+}
+
+.certa {
+  background: #00ff88 !important;
+  color: black;
+}
+
+.errada {
+  background: #ff3b3b !important;
+  color: white;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+}
