@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistemas Operacionais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="progressBar"></div>
+
+<div class="sidebar">
+  <h2>Sistemas</h2>
+  <a href="#inicio">Início</a>
+  <a href="#ios">iOS</a>
+  <a href="#android">Android</a>
+  <a href="#linux">Linux</a>
+  <a href="#windows">Windows</a>
+  <a href="#comparacao">Comparação</a>
+  <a href="#quiz">Quiz</a>
+</div>
+
+<div class="content">
+
+<!-- INÍCIO -->
+<section id="inicio">
+  <h1>Sistemas Operacionais</h1>
+
+  <p>
+    Um sistema operacional (SO) é o software principal de qualquer dispositivo eletrônico. Ele controla todos os recursos do hardware e permite que o usuário execute programas de forma organizada e segura.
+  </p>
+
+  <p>
+    Ele funciona como uma ponte entre o usuário e o computador, traduzindo comandos em ações que a máquina consegue entender e executar.
+  </p>
+
+  <p>
+    Sem um sistema operacional, um computador seria apenas um conjunto de peças sem utilidade prática.
+  </p>
+
+  <h3>Funções principais</h3>
+  <ul>
+    <li>Gerenciar memória e processador</li>
+    <li>Executar aplicativos</li>
+    <li>Controlar dispositivos</li>
+    <li>Garantir segurança</li>
+  </ul>
+</section>
+
+<!-- IOS -->
+<section id="ios">
+  <h1>iOS</h1>
+
+  <p>
+    O iOS é o sistema operacional da Apple utilizado em iPhones e iPads. Ele é conhecido por sua segurança, fluidez e integração total com o hardware da empresa.
+  </p>
+
+  <p>
+    Seu sistema fechado garante maior controle sobre aplicativos e segurança dos usuários.
+  </p>
+
+  <p>
+    Ele recebe atualizações por muitos anos, mantendo desempenho mesmo em aparelhos antigos.
+  </p>
+
+  <h3>Características</h3>
+  <ul>
+    <li>Sistema fechado</li>
+    <li>Alta segurança</li>
+    <li>Desempenho otimizado</li>
+  </ul>
+</section>
+
+<!-- ANDROID -->
+<section id="android">
+  <h1>Android</h1>
+
+  <p>
+    O Android é um sistema baseado no Linux desenvolvido pelo Google e utilizado por diversas fabricantes no mundo.
+  </p>
+
+  <p>
+    Ele é o sistema mais popular globalmente devido à sua flexibilidade e variedade de dispositivos.
+  </p>
+
+  <p>
+    Permite grande personalização e integração com serviços Google.
+  </p>
+
+  <h3>Características</h3>
+  <ul>
+    <li>Sistema aberto</li>
+    <li>Alta personalização</li>
+    <li>Grande variedade de aparelhos</li>
+  </ul>
+</section>
+
+<!-- LINUX -->
+<section id="linux">
+  <h1>Linux</h1>
+
+  <p>
+    O Linux é um sistema open-source criado por Linus Torvalds em 1991, amplamente usado em servidores e sistemas críticos.
+  </p>
+
+  <p>
+    Ele é conhecido por sua estabilidade, segurança e eficiência.
+  </p>
+
+  <h3>Características</h3>
+  <ul>
+    <li>Código aberto</li>
+    <li>Altamente seguro</li>
+    <li>Muito estável</li>
+  </ul>
+</section>
+
+<!-- WINDOWS -->
+<section id="windows">
+  <h1>Windows</h1>
+
+  <p>
+    O Windows é o sistema mais usado em computadores pessoais, desenvolvido pela Microsoft.
+  </p>
+
+  <p>
+    Ele é popular por sua facilidade de uso e compatibilidade com softwares e jogos.
+  </p>
+
+  <h3>Características</h3>
+  <ul>
+    <li>Fácil de usar</li>
+    <li>Alta compatibilidade</li>
+    <li>Amplo suporte a jogos</li>
+  </ul>
+</section>
+
+<!-- COMPARAÇÃO -->
+<section id="comparacao">
+  <h1>Comparação</h1>
+
+  <table>
+    <tr>
+      <th>Sistema</th>
+      <th>Segurança</th>
+      <th>Uso</th>
+    </tr>
+    <tr><td>iOS</td><td>★★★★★</td><td>Mobile</td></tr>
+    <tr><td>Android</td><td>★★★☆☆</td><td>Mobile</td></tr>
+    <tr><td>Linux</td><td>★★★★★</td><td>Servidores</td></tr>
+    <tr><td>Windows</td><td>★★★☆☆</td><td>PC</td></tr>
+  </table>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+  <h1>Quiz (10 perguntas)</h1>
+
+  <div class="quiz-box" id="quizBox"></div>
+
+  <br>
+  <button onclick="mostrarResultado()">Ver Resultado</button>
+  <h2 id="resultadoQuiz"></h2>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
